@@ -57,6 +57,9 @@
                                 <state key="normal" title="ACESSE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iff-de-dFg" kind="show" id="IYj-P4-wjs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivu-OY-EPT">
                                 <rect key="frame" x="32" y="529" width="311" height="30"/>
@@ -209,6 +212,57 @@
             </objects>
             <point key="canvasLocation" x="1212" y="28.335832083958024"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Vqq-U4-kq1">
+            <objects>
+                <viewController id="Iff-de-dFg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5XQ-yg-7m6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aviso_aproximar_para_a_catraca_01" translatesAutoresizingMaskIntoConstraints="NO" id="wUc-IP-L41">
+                                <rect key="frame" x="2" y="100" width="371" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="DPP-UK-nkO"/>
+                                    <constraint firstAttribute="width" constant="371" id="G0z-Cf-rAb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APROXIME O CELULAR A CATRACA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5c-u3-QnL">
+                                <rect key="frame" x="41" y="355" width="293" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="CFE-Dz-Rv2"/>
+                                    <constraint firstAttribute="height" constant="59" id="fHO-t1-hgd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.81568627449999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2d-D0-H1n">
+                                <rect key="frame" x="122" y="446" width="131" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0et-n6-rUg"/>
+                                    <constraint firstAttribute="width" constant="131" id="9OO-d0-28P"/>
+                                </constraints>
+                                <state key="normal" title="Painel de acesso"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14509803921568626" green="0.18431372549019609" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n2d-D0-H1n" firstAttribute="top" secondItem="L5c-u3-QnL" secondAttribute="bottom" constant="32" id="95k-d1-ymH"/>
+                            <constraint firstItem="wUc-IP-L41" firstAttribute="centerX" secondItem="5XQ-yg-7m6" secondAttribute="centerX" id="DP5-ZC-5V3"/>
+                            <constraint firstItem="L5c-u3-QnL" firstAttribute="top" secondItem="wUc-IP-L41" secondAttribute="bottom" constant="31" id="ItZ-ye-NyT"/>
+                            <constraint firstItem="n2d-D0-H1n" firstAttribute="centerX" secondItem="5XQ-yg-7m6" secondAttribute="centerX" id="QCf-Bq-Ib9"/>
+                            <constraint firstItem="L5c-u3-QnL" firstAttribute="centerX" secondItem="5XQ-yg-7m6" secondAttribute="centerX" id="fwV-VE-yW2"/>
+                            <constraint firstItem="wUc-IP-L41" firstAttribute="top" secondItem="tb3-zx-cU7" secondAttribute="top" constant="36" id="zqG-nH-Nwj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tb3-zx-cU7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYw-1F-RBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="743.47826086956525"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="n97-YR-lX7">
             <objects>
@@ -233,6 +287,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="aviso_aproximar_para_a_catraca_01" width="175" height="175"/>
         <image name="logo_easypasse" width="800" height="244"/>
     </resources>
 </document>
