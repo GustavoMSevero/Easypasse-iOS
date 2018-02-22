@@ -13,6 +13,8 @@
 		EC1E8FF4202D381200BE0A1B /* Easypasse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FF2202D381100BE0A1B /* Easypasse.xcdatamodeld */; };
 		EC1E8FF6202D381300BE0A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FF5202D381300BE0A1B /* Assets.xcassets */; };
 		EC1E8FF9202D381300BE0A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FF7202D381300BE0A1B /* LaunchScreen.storyboard */; };
+		EC32B12B203C821700861AC3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32B12A203C821700861AC3 /* CadastroViewController.swift */; };
+		EC32B12D203C825000861AC3 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32B12C203C825000861AC3 /* PrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EC1E8FF5202D381300BE0A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1E8FF8202D381300BE0A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1E8FFA202D381300BE0A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC32B12A203C821700861AC3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		EC32B12C203C825000861AC3 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				EC1E8FEB202D381000BE0A1B /* AppDelegate.swift */,
 				EC1E8FED202D381000BE0A1B /* ViewController.swift */,
+				EC32B12A203C821700861AC3 /* CadastroViewController.swift */,
+				EC32B12C203C825000861AC3 /* PrincipalViewController.swift */,
 				EC1E8FEF202D381000BE0A1B /* Main.storyboard */,
 				EC1E8FF5202D381300BE0A1B /* Assets.xcassets */,
 				EC1E8FF7202D381300BE0A1B /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			files = (
 				EC1E8FEE202D381000BE0A1B /* ViewController.swift in Sources */,
 				EC1E8FF4202D381200BE0A1B /* Easypasse.xcdatamodeld in Sources */,
+				EC32B12D203C825000861AC3 /* PrincipalViewController.swift in Sources */,
 				EC1E8FEC202D381000BE0A1B /* AppDelegate.swift in Sources */,
+				EC32B12B203C821700861AC3 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
