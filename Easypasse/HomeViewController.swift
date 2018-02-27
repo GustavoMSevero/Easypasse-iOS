@@ -1,15 +1,19 @@
 //
-//  PrincipalViewController.swift
+//  HomeViewController.swift
 //  Easypasse
 //
-//  Created by Gustavo Severo on 20/02/2018.
+//  Created by Gustavo Severo on 22/02/2018.
 //  Copyright © 2018 Gustavo Severo. All rights reserved.
 //
 
 import UIKit
 
-class PrincipalViewController: UIViewController {
+class HomeViewController: UIViewController {
 
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    
+    var menuShow = false
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,12 +21,27 @@ class PrincipalViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func OpenMenu(_ sender: Any) {
+        
+        if(menuShow){
+            leadingConstraint.constant = -125
+        } else {
+            leadingConstraint.constant = 0
+            
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+        }
+        
+        menuShow = !menuShow
+        
     }
     
 
