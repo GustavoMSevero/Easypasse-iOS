@@ -929,6 +929,9 @@
                                                 <state key="normal" title="FAZER UMA RECARGA">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Ge8-4m-ajF" kind="show" id="cjD-H5-fBk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJE-Y2-axM">
                                                 <rect key="frame" x="51" y="284.5" width="274" height="55"/>
@@ -1191,7 +1194,7 @@
                         <viewLayoutGuide key="safeArea" id="DdY-kC-6Rh"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="vC8-7t-e3b">
+                    <navigationItem key="navigationItem" title="Home" id="vC8-7t-e3b">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="z3e-aX-qbO">
                             <connections>
                                 <action selector="onMoreTapped" destination="JGV-X4-g1K" id="v42-fZ-Eou"/>
@@ -1223,6 +1226,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bai-1f-FsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4168" y="1749"/>
+        </scene>
+        <!--Fazer Recarga-->
+        <scene sceneID="fea-r8-RRN">
+            <objects>
+                <viewController title="Fazer Recarga" id="Ge8-4m-ajF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ls9-vN-BsB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-XQ-ipK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Os6-NL-202">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="ijJ-Ez-6sZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Os6-NL-202" secondAttribute="trailing" id="CaQ-m9-xBT"/>
+                                    <constraint firstItem="Os6-NL-202" firstAttribute="leading" secondItem="0J0-XQ-ipK" secondAttribute="leading" id="St2-T1-mf5"/>
+                                    <constraint firstItem="Os6-NL-202" firstAttribute="top" secondItem="0J0-XQ-ipK" secondAttribute="top" id="ca2-5b-1d0"/>
+                                    <constraint firstAttribute="bottom" secondItem="Os6-NL-202" secondAttribute="bottom" id="qUd-jj-j0L"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0J0-XQ-ipK" firstAttribute="bottom" secondItem="DN0-08-X6I" secondAttribute="bottom" id="Fgf-qZ-YKq"/>
+                            <constraint firstItem="Os6-NL-202" firstAttribute="width" secondItem="ls9-vN-BsB" secondAttribute="width" id="XLn-68-gmw"/>
+                            <constraint firstItem="0J0-XQ-ipK" firstAttribute="trailing" secondItem="DN0-08-X6I" secondAttribute="trailing" id="qrv-vm-Zgn"/>
+                            <constraint firstItem="0J0-XQ-ipK" firstAttribute="leading" secondItem="DN0-08-X6I" secondAttribute="leading" id="rX4-EV-HFF"/>
+                            <constraint firstItem="0J0-XQ-ipK" firstAttribute="top" secondItem="ls9-vN-BsB" secondAttribute="top" id="rvE-X6-JZO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DN0-08-X6I"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Recarga" id="GKd-SO-fms"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mma-fW-k73" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6717" y="1878"/>
         </scene>
     </scenes>
     <resources>
