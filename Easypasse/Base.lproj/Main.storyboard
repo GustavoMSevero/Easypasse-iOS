@@ -1203,6 +1203,13 @@
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <segue destination="m0g-98-Ro7" kind="show" identifier="ShowLocalizarOnibus" id="DTq-uO-0Xn"/>
+                        <segue destination="roe-cr-UWf" kind="show" identifier="ShowIndicar" id="OXc-mG-WHS"/>
+                        <segue destination="ixi-7a-NTl" kind="show" identifier="ShowCreditos" id="wzf-cz-VXB"/>
+                        <segue destination="xIe-FO-Vlo" kind="show" identifier="ShowHistorico" id="65X-8M-otD"/>
+                        <segue destination="UWS-tl-BHc" kind="show" identifier="ShowConfiguracoes" id="luG-hk-AnE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uCr-y4-T4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1272,7 +1279,242 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mma-fW-k73" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6717" y="1878"/>
+            <point key="canvasLocation" x="6053" y="1878"/>
+        </scene>
+        <!--Localizar Onibus-->
+        <scene sceneID="RE4-hc-Tjg">
+            <objects>
+                <viewController title="Localizar Onibus" id="m0g-98-Ro7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nkl-je-cDT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2t-Dm-SrW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ye-Xh-JHp">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="6H3-2K-qIq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="8Ye-Xh-JHp" firstAttribute="leading" secondItem="I2t-Dm-SrW" secondAttribute="leading" id="4XD-xJ-JrE"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Ye-Xh-JHp" secondAttribute="bottom" id="CN6-Fm-Jgf"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Ye-Xh-JHp" secondAttribute="trailing" id="LP9-8a-yzk"/>
+                                    <constraint firstItem="8Ye-Xh-JHp" firstAttribute="top" secondItem="I2t-Dm-SrW" secondAttribute="top" id="XSg-f2-hnt"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I2t-Dm-SrW" firstAttribute="trailing" secondItem="mh7-xl-GGX" secondAttribute="trailing" id="7td-Lg-J4t"/>
+                            <constraint firstItem="I2t-Dm-SrW" firstAttribute="leading" secondItem="mh7-xl-GGX" secondAttribute="leading" id="Euo-Vg-Urg"/>
+                            <constraint firstItem="I2t-Dm-SrW" firstAttribute="bottom" secondItem="mh7-xl-GGX" secondAttribute="bottom" id="PBk-MA-2rw"/>
+                            <constraint firstItem="8Ye-Xh-JHp" firstAttribute="width" secondItem="Nkl-je-cDT" secondAttribute="width" id="jU9-Tg-Tqa"/>
+                            <constraint firstItem="I2t-Dm-SrW" firstAttribute="top" secondItem="Nkl-je-cDT" secondAttribute="top" id="qpM-vM-AOg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mh7-xl-GGX"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Localizar Ônibus" id="IBh-iU-o1S"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDH-R1-5u6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4300" y="2901"/>
+        </scene>
+        <!--Indicar-->
+        <scene sceneID="f4b-YJ-Tem">
+            <objects>
+                <viewController title="Indicar" id="roe-cr-UWf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7K9-5s-Apj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKf-Pt-gPx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cz-Ri-n5k">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="Vgh-ft-ibJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0cz-Ri-n5k" firstAttribute="top" secondItem="uKf-Pt-gPx" secondAttribute="top" id="TW0-AG-EjL"/>
+                                    <constraint firstAttribute="bottom" secondItem="0cz-Ri-n5k" secondAttribute="bottom" id="m7M-9O-ap1"/>
+                                    <constraint firstItem="0cz-Ri-n5k" firstAttribute="leading" secondItem="uKf-Pt-gPx" secondAttribute="leading" id="q8f-xC-kGQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="0cz-Ri-n5k" secondAttribute="trailing" id="r35-4d-GDs"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uKf-Pt-gPx" firstAttribute="leading" secondItem="8yH-qf-cmQ" secondAttribute="leading" id="dxR-uA-jae"/>
+                            <constraint firstItem="uKf-Pt-gPx" firstAttribute="top" secondItem="7K9-5s-Apj" secondAttribute="top" id="fEn-iY-KIa"/>
+                            <constraint firstItem="uKf-Pt-gPx" firstAttribute="trailing" secondItem="8yH-qf-cmQ" secondAttribute="trailing" id="gIr-Et-7WU"/>
+                            <constraint firstItem="0cz-Ri-n5k" firstAttribute="width" secondItem="7K9-5s-Apj" secondAttribute="width" id="sYx-uI-HbH"/>
+                            <constraint firstItem="uKf-Pt-gPx" firstAttribute="bottom" secondItem="8yH-qf-cmQ" secondAttribute="bottom" id="vgB-sb-WVC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8yH-qf-cmQ"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Indicar" id="zt9-jG-o1V"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6U-Xg-suB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5077" y="2901"/>
+        </scene>
+        <!--Créditos-->
+        <scene sceneID="stX-fI-Laq">
+            <objects>
+                <viewController title="Créditos" id="ixi-7a-NTl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oEm-h7-yYJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bku-fZ-IBi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWR-Kf-cay">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="Cyv-ir-A3C"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bWR-Kf-cay" firstAttribute="leading" secondItem="Bku-fZ-IBi" secondAttribute="leading" id="B4h-Fd-lky"/>
+                                    <constraint firstAttribute="bottom" secondItem="bWR-Kf-cay" secondAttribute="bottom" id="Omh-oa-MaY"/>
+                                    <constraint firstItem="bWR-Kf-cay" firstAttribute="top" secondItem="Bku-fZ-IBi" secondAttribute="top" id="Phf-BV-6sH"/>
+                                    <constraint firstAttribute="trailing" secondItem="bWR-Kf-cay" secondAttribute="trailing" id="f7A-E4-6wR"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bku-fZ-IBi" firstAttribute="top" secondItem="oEm-h7-yYJ" secondAttribute="top" id="1bY-RO-nsl"/>
+                            <constraint firstItem="Bku-fZ-IBi" firstAttribute="trailing" secondItem="bja-bG-2IB" secondAttribute="trailing" id="S5j-UG-CNr"/>
+                            <constraint firstItem="Bku-fZ-IBi" firstAttribute="bottom" secondItem="bja-bG-2IB" secondAttribute="bottom" id="Vdg-Zc-Zu8"/>
+                            <constraint firstItem="Bku-fZ-IBi" firstAttribute="leading" secondItem="bja-bG-2IB" secondAttribute="leading" id="lv3-lA-dT2"/>
+                            <constraint firstItem="bWR-Kf-cay" firstAttribute="width" secondItem="oEm-h7-yYJ" secondAttribute="width" id="wXi-c1-pxo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bja-bG-2IB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Créditos" id="lIB-ui-X4q"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JW1-8b-7dD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5896" y="2901"/>
+        </scene>
+        <!--Histórico-->
+        <scene sceneID="bdd-CN-yaR">
+            <objects>
+                <viewController title="Histórico" id="xIe-FO-Vlo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ttb-pN-5K4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-52-HBV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LOH-gD-mIM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="NFm-c0-7Dy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LOH-gD-mIM" secondAttribute="bottom" id="2Ti-Pj-rwj"/>
+                                    <constraint firstAttribute="trailing" secondItem="LOH-gD-mIM" secondAttribute="trailing" id="E64-7x-fwv"/>
+                                    <constraint firstItem="LOH-gD-mIM" firstAttribute="top" secondItem="hvr-52-HBV" secondAttribute="top" id="X2F-OA-09p"/>
+                                    <constraint firstItem="LOH-gD-mIM" firstAttribute="leading" secondItem="hvr-52-HBV" secondAttribute="leading" id="jAo-Ht-WpA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hvr-52-HBV" firstAttribute="leading" secondItem="9Mg-35-63g" secondAttribute="leading" id="BJc-Zc-Tef"/>
+                            <constraint firstItem="hvr-52-HBV" firstAttribute="bottom" secondItem="9Mg-35-63g" secondAttribute="bottom" id="JRj-UW-8k3"/>
+                            <constraint firstItem="hvr-52-HBV" firstAttribute="trailing" secondItem="9Mg-35-63g" secondAttribute="trailing" id="Usm-Gt-EHa"/>
+                            <constraint firstItem="hvr-52-HBV" firstAttribute="top" secondItem="ttb-pN-5K4" secondAttribute="top" id="gR1-WG-lpn"/>
+                            <constraint firstItem="LOH-gD-mIM" firstAttribute="width" secondItem="ttb-pN-5K4" secondAttribute="width" id="w0z-I8-7KA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Mg-35-63g"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Histórico" id="HGW-eZ-alE"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kth-DX-UtI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4298" y="3859"/>
+        </scene>
+        <!--Configurações-->
+        <scene sceneID="Y8y-J8-Eed">
+            <objects>
+                <viewController title="Configurações" id="UWS-tl-BHc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ldy-WA-3lp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aW6-xp-6ke">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbz-UH-EGd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="703"/>
+                                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="703" id="vbf-iV-05V"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="vbz-UH-EGd" firstAttribute="leading" secondItem="aW6-xp-6ke" secondAttribute="leading" id="14s-qD-ouj"/>
+                                    <constraint firstItem="vbz-UH-EGd" firstAttribute="top" secondItem="aW6-xp-6ke" secondAttribute="top" id="JBm-1y-QED"/>
+                                    <constraint firstAttribute="bottom" secondItem="vbz-UH-EGd" secondAttribute="bottom" id="slQ-Ba-F2s"/>
+                                    <constraint firstAttribute="trailing" secondItem="vbz-UH-EGd" secondAttribute="trailing" id="z70-nc-rI7"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aW6-xp-6ke" firstAttribute="leading" secondItem="lZM-Lg-F9c" secondAttribute="leading" id="EZj-r3-yfM"/>
+                            <constraint firstItem="aW6-xp-6ke" firstAttribute="trailing" secondItem="lZM-Lg-F9c" secondAttribute="trailing" id="KAP-6W-iwm"/>
+                            <constraint firstItem="aW6-xp-6ke" firstAttribute="top" secondItem="Ldy-WA-3lp" secondAttribute="top" id="Tpl-JR-Wsr"/>
+                            <constraint firstItem="aW6-xp-6ke" firstAttribute="bottom" secondItem="lZM-Lg-F9c" secondAttribute="bottom" id="Z73-z7-cwn"/>
+                            <constraint firstItem="vbz-UH-EGd" firstAttribute="width" secondItem="Ldy-WA-3lp" secondAttribute="width" id="q5o-PO-RrD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lZM-Lg-F9c"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Configurações" id="bNd-fX-J1U"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ux4-vh-2Xn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5077" y="3858"/>
         </scene>
     </scenes>
     <resources>

@@ -14,9 +14,12 @@ class SideMenuVC: UITableViewController {
         print(indexPath.row)
         NotificationCenter.default.post(name: NSNotification.Name("ToggleSideMenu"), object: nil)
         switch indexPath.row {
-        case 0: NotificationCenter.default.post(name: NSNotification.Name("ShowProfile"), object: nil)
-        case 1: NotificationCenter.default.post(name: NSNotification.Name("ShowSettings"), object: nil)
-        case 2: NotificationCenter.default.post(name: NSNotification.Name("ShowSignIn"), object: nil)
+        case 0: NotificationCenter.default.post(name: NSNotification.Name("ShowTelaInicial"), object: nil)
+        case 1: NotificationCenter.default.post(name: NSNotification.Name("ShowLocalizarOnibus"), object: nil)
+        case 2: NotificationCenter.default.post(name: NSNotification.Name("ShowIndicar"), object: nil)
+        case 3: NotificationCenter.default.post(name: NSNotification.Name("ShowCreditos"), object: nil)
+        case 4: NotificationCenter.default.post(name: NSNotification.Name("ShowHistorico"), object: nil)
+        case 5: NotificationCenter.default.post(name: NSNotification.Name("ShowConfiguracoes"), object: nil)
         default: break
         }
     }

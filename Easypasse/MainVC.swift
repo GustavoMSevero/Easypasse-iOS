@@ -15,33 +15,63 @@ class MainVC: UIViewController {
         
         //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
         NotificationCenter.default.addObserver(self,
-                                            selector: #selector(showProfile),
-                                            name: NSNotification.Name("ShowProfile"),
+                                            selector: #selector(showTelaInicial),
+                                            name: NSNotification.Name("ShowTelaInicial"),
                                             object: nil)
         
         //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
         NotificationCenter.default.addObserver(self,
-                                            selector: #selector(showSettings),
-                                            name: NSNotification.Name("ShowSettings"),
+                                            selector: #selector(showLocalizarOnibus),
+                                            name: NSNotification.Name("ShowLocalizarOnibus"),
                                             object: nil)
         
         //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
         NotificationCenter.default.addObserver(self,
-                                            selector: #selector(showSignOut),
-                                            name: NSNotification.Name("ShowSignIn"),
+                                            selector: #selector(showIndicar),
+                                            name: NSNotification.Name("ShowIndicar"),
                                             object: nil)
+        
+        //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(showCreditos),
+                                               name: NSNotification.Name("ShowCreditos"),
+                                               object: nil)
+        
+        //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(showHistorico),
+                                               name: NSNotification.Name("ShowHistorico"),
+                                               object: nil)
+        
+        //Observador. Para que o botão de menu seja "ativado" depois que a aplicação carregar
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(showConfiguracoes),
+                                               name: NSNotification.Name("ShowConfiguracoes"),
+                                               object: nil)
     }
     
-    @objc func showProfile() {
-        performSegue(withIdentifier: "ShowProfile", sender: nil)
+    @objc func showTelaInicial() {
+        performSegue(withIdentifier: "ShowTelaInicial", sender: nil)
     }
     
-    @objc func showSettings() {
-        performSegue(withIdentifier: "ShowSettings", sender: nil)
+    @objc func showLocalizarOnibus() {
+        performSegue(withIdentifier: "ShowLocalizarOnibus", sender: nil)
     }
     
-    @objc func showSignOut() {
-        performSegue(withIdentifier: "ShowSignIn", sender: nil)
+    @objc func showIndicar() {
+        performSegue(withIdentifier: "ShowIndicar", sender: nil)
+    }
+    
+    @objc func showCreditos() {
+        performSegue(withIdentifier: "ShowCreditos", sender: nil)
+    }
+    
+    @objc func showHistorico() {
+        performSegue(withIdentifier: "ShowHistorico", sender: nil)
+    }
+    
+    @objc func showConfiguracoes() {
+        performSegue(withIdentifier: "ShowConfiguracoes", sender: nil)
     }
 
     @IBAction func onMoreTapped() {
