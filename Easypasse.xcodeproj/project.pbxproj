@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7898CB3C3EFB30DD725963D9 /* Pods_Easypasse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434854F0C5346930A1E7597C /* Pods_Easypasse.framework */; };
 		EC1E8FEC202D381000BE0A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FEB202D381000BE0A1B /* AppDelegate.swift */; };
 		EC1E8FEE202D381000BE0A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FED202D381000BE0A1B /* ViewController.swift */; };
 		EC1E8FF1202D381000BE0A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FEF202D381000BE0A1B /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		EC1E8FF9202D381300BE0A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FF7202D381300BE0A1B /* LaunchScreen.storyboard */; };
 		EC32B12B203C821700861AC3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32B12A203C821700861AC3 /* CadastroViewController.swift */; };
 		EC32B12D203C825000861AC3 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32B12C203C825000861AC3 /* PrincipalViewController.swift */; };
+		EC398AC720E280F60044882C /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC398AC620E280F60044882C /* MD5.swift */; };
+		EC539AB020E6DBC4001CA2F9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */; };
 		EC7AB82F2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */; };
 		ECB4FAA7203F718D00E45866 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4FAA6203F718D00E45866 /* HomeViewController.swift */; };
 		ECFFF08C20A9FDC100BBAB01 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08920A9FDC100BBAB01 /* MainVC.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		434854F0C5346930A1E7597C /* Pods_Easypasse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easypasse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF0A0F2B1C8035EAAED443E /* Pods-Easypasse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easypasse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easypasse/Pods-Easypasse.release.xcconfig"; sourceTree = "<group>"; };
+		B61E4501B2AF2EC7EE52AFCB /* Pods-Easypasse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easypasse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easypasse/Pods-Easypasse.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1E8FE8202D381000BE0A1B /* Easypasse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easypasse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1E8FEB202D381000BE0A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC1E8FED202D381000BE0A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +39,8 @@
 		EC1E8FFA202D381300BE0A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC32B12A203C821700861AC3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		EC32B12C203C825000861AC3 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
+		EC398AC620E280F60044882C /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvioRecargaOutroViewController.swift; sourceTree = "<group>"; };
 		ECB4FAA6203F718D00E45866 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ECFFF08920A9FDC100BBAB01 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -45,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7898CB3C3EFB30DD725963D9 /* Pods_Easypasse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E45395AE3D9B6450A5F99524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434854F0C5346930A1E7597C /* Pods_Easypasse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC1E8FDF202D381000BE0A1B = {
 			isa = PBXGroup;
 			children = (
 				EC1E8FEA202D381000BE0A1B /* Easypasse */,
 				EC1E8FE9202D381000BE0A1B /* Products */,
+				F5D6D5EF1BB951B42B2147A6 /* Pods */,
+				E45395AE3D9B6450A5F99524 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +89,8 @@
 		EC1E8FEA202D381000BE0A1B /* Easypasse */ = {
 			isa = PBXGroup;
 			children = (
+				EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */,
+				EC398AC620E280F60044882C /* MD5.swift */,
 				ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */,
 				ECFFF08920A9FDC100BBAB01 /* MainVC.swift */,
 				ECFFF08B20A9FDC100BBAB01 /* SideMenuVC.swift */,
@@ -88,6 +109,15 @@
 			path = Easypasse;
 			sourceTree = "<group>";
 		};
+		F5D6D5EF1BB951B42B2147A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B61E4501B2AF2EC7EE52AFCB /* Pods-Easypasse.debug.xcconfig */,
+				8BF0A0F2B1C8035EAAED443E /* Pods-Easypasse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1E8FFD202D381300BE0A1B /* Build configuration list for PBXNativeTarget "Easypasse" */;
 			buildPhases = (
+				0E2FC23C2F62A1C6AAFE76A8 /* [CP] Check Pods Manifest.lock */,
 				EC1E8FE4202D381000BE0A1B /* Sources */,
 				EC1E8FE5202D381000BE0A1B /* Frameworks */,
 				EC1E8FE6202D381000BE0A1B /* Resources */,
+				19AE4FEDCFB56CA4D59FE297 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +187,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E2FC23C2F62A1C6AAFE76A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easypasse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19AE4FEDCFB56CA4D59FE297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easypasse/Pods-Easypasse-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easypasse/Pods-Easypasse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC1E8FE4202D381000BE0A1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -168,8 +245,10 @@
 				EC32B12D203C825000861AC3 /* PrincipalViewController.swift in Sources */,
 				EC1E8FEC202D381000BE0A1B /* AppDelegate.swift in Sources */,
 				ECFFF08C20A9FDC100BBAB01 /* MainVC.swift in Sources */,
+				EC539AB020E6DBC4001CA2F9 /* Usuario.swift in Sources */,
 				EC32B12B203C821700861AC3 /* CadastroViewController.swift in Sources */,
 				ECB4FAA7203F718D00E45866 /* HomeViewController.swift in Sources */,
+				EC398AC720E280F60044882C /* MD5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -294,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -304,6 +383,7 @@
 		};
 		EC1E8FFE202D381300BE0A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61E4501B2AF2EC7EE52AFCB /* Pods-Easypasse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,12 +394,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gustavosevero.Easypasse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EC1E8FFF202D381300BE0A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF0A0F2B1C8035EAAED443E /* Pods-Easypasse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gustavosevero.Easypasse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

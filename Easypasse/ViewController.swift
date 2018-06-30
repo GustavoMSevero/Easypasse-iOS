@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var campoCPF: UITextField!
+    @IBOutlet weak var campoSenha: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -24,6 +27,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func botaoAcesse(_ sender: Any) {
+    }
 
+    
 }
 
