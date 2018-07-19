@@ -60,16 +60,14 @@ class CadastroViewController: UIViewController {
                     let cpfUsuario: String = cpf!
                     let idUsuario: String = idusuario!
                     
-                    
                     let appDelegate = UIApplication.shared.delegate as! AppDelegate
                     let context = appDelegate.persistentContainer.viewContext
-                    //let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-                    
+
                     let dataUsuario = NSEntityDescription.insertNewObject(forEntityName: "Usuario", into: context)
-                    dataUsuario.setValue(nomeUsuario, forKey: "nome")
+                    dataUsuario.setValue(nomeUsuario, forKey: "usuario")
                     dataUsuario.setValue(idUsuario, forKey: "idusuario")
                     dataUsuario.setValue(cpfUsuario, forKey: "cpf")
-                    
+
                     //Salvar os dados
                     do {
                         try context.save()

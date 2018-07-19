@@ -20,6 +20,7 @@
 		EC539AB020E6DBC4001CA2F9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */; };
 		EC7AB82F2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */; };
 		ECB4FAA7203F718D00E45866 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4FAA6203F718D00E45866 /* HomeViewController.swift */; };
+		ECC0C55A2100C88A00BDE6CB /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0C5592100C88A00BDE6CB /* CoreData.swift */; };
 		ECFFF08C20A9FDC100BBAB01 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08920A9FDC100BBAB01 /* MainVC.swift */; };
 		ECFFF08D20A9FDC100BBAB01 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */; };
 		ECFFF08E20A9FDC100BBAB01 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08B20A9FDC100BBAB01 /* SideMenuVC.swift */; };
@@ -43,6 +44,8 @@
 		EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvioRecargaOutroViewController.swift; sourceTree = "<group>"; };
 		ECB4FAA6203F718D00E45866 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Easypasse 2.xcdatamodel"; sourceTree = "<group>"; };
+		ECC0C5592100C88A00BDE6CB /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		ECFFF08920A9FDC100BBAB01 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		ECFFF08B20A9FDC100BBAB01 /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */,
+				ECC0C5592100C88A00BDE6CB /* CoreData.swift */,
 				EC398AC620E280F60044882C /* MD5.swift */,
 				ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */,
 				ECFFF08920A9FDC100BBAB01 /* MainVC.swift */,
@@ -238,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7AB82F2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift in Sources */,
+				ECC0C55A2100C88A00BDE6CB /* CoreData.swift in Sources */,
 				EC1E8FEE202D381000BE0A1B /* ViewController.swift in Sources */,
 				EC1E8FF4202D381200BE0A1B /* Easypasse.xcdatamodeld in Sources */,
 				ECFFF08D20A9FDC100BBAB01 /* ContainerVC.swift in Sources */,
@@ -442,9 +447,10 @@
 		EC1E8FF2202D381100BE0A1B /* Easypasse.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */,
 				EC1E8FF3202D381100BE0A1B /* Easypasse.xcdatamodel */,
 			);
-			currentVersion = EC1E8FF3202D381100BE0A1B /* Easypasse.xcdatamodel */;
+			currentVersion = ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */;
 			path = Easypasse.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
