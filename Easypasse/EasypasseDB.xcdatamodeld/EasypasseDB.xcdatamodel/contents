@@ -5,7 +5,6 @@
         <attribute name="idusuario" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <configuration name="Configuration"/>
     <elements>
         <element name="Usuario" positionX="-63" positionY="-18" width="128" height="90"/>
     </elements>

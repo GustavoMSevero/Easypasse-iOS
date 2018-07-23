@@ -11,7 +11,6 @@
 		EC1E8FEC202D381000BE0A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FEB202D381000BE0A1B /* AppDelegate.swift */; };
 		EC1E8FEE202D381000BE0A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FED202D381000BE0A1B /* ViewController.swift */; };
 		EC1E8FF1202D381000BE0A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FEF202D381000BE0A1B /* Main.storyboard */; };
-		EC1E8FF4202D381200BE0A1B /* Easypasse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8FF2202D381100BE0A1B /* Easypasse.xcdatamodeld */; };
 		EC1E8FF6202D381300BE0A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FF5202D381300BE0A1B /* Assets.xcassets */; };
 		EC1E8FF9202D381300BE0A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8FF7202D381300BE0A1B /* LaunchScreen.storyboard */; };
 		EC32B12B203C821700861AC3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32B12A203C821700861AC3 /* CadastroViewController.swift */; };
@@ -20,6 +19,7 @@
 		EC539AB020E6DBC4001CA2F9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */; };
 		EC7AB82F2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */; };
 		ECB4FAA7203F718D00E45866 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4FAA6203F718D00E45866 /* HomeViewController.swift */; };
+		ECBC37A121065B2C00CDBBA8 /* EasypasseDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECBC379F21065B2C00CDBBA8 /* EasypasseDB.xcdatamodeld */; };
 		ECC0C55A2100C88A00BDE6CB /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0C5592100C88A00BDE6CB /* CoreData.swift */; };
 		ECFFF08C20A9FDC100BBAB01 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08920A9FDC100BBAB01 /* MainVC.swift */; };
 		ECFFF08D20A9FDC100BBAB01 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */; };
@@ -34,7 +34,6 @@
 		EC1E8FEB202D381000BE0A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC1E8FED202D381000BE0A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC1E8FF0202D381000BE0A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC1E8FF3202D381100BE0A1B /* Easypasse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easypasse.xcdatamodel; sourceTree = "<group>"; };
 		EC1E8FF5202D381300BE0A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1E8FF8202D381300BE0A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1E8FFA202D381300BE0A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +43,7 @@
 		EC539AAF20E6DBC4001CA2F9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		EC7AB82E2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvioRecargaOutroViewController.swift; sourceTree = "<group>"; };
 		ECB4FAA6203F718D00E45866 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Easypasse 2.xcdatamodel"; sourceTree = "<group>"; };
+		ECBC37A021065B2C00CDBBA8 /* EasypasseDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasypasseDB.xcdatamodel; sourceTree = "<group>"; };
 		ECC0C5592100C88A00BDE6CB /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		ECFFF08920A9FDC100BBAB01 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		ECFFF08A20A9FDC100BBAB01 /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
@@ -108,7 +107,7 @@
 				EC1E8FF5202D381300BE0A1B /* Assets.xcassets */,
 				EC1E8FF7202D381300BE0A1B /* LaunchScreen.storyboard */,
 				EC1E8FFA202D381300BE0A1B /* Info.plist */,
-				EC1E8FF2202D381100BE0A1B /* Easypasse.xcdatamodeld */,
+				ECBC379F21065B2C00CDBBA8 /* EasypasseDB.xcdatamodeld */,
 			);
 			path = Easypasse;
 			sourceTree = "<group>";
@@ -244,7 +243,7 @@
 				EC7AB82F2044AE2F00A421DB /* EnvioRecargaOutroViewController.swift in Sources */,
 				ECC0C55A2100C88A00BDE6CB /* CoreData.swift in Sources */,
 				EC1E8FEE202D381000BE0A1B /* ViewController.swift in Sources */,
-				EC1E8FF4202D381200BE0A1B /* Easypasse.xcdatamodeld in Sources */,
+				ECBC37A121065B2C00CDBBA8 /* EasypasseDB.xcdatamodeld in Sources */,
 				ECFFF08D20A9FDC100BBAB01 /* ContainerVC.swift in Sources */,
 				ECFFF08E20A9FDC100BBAB01 /* SideMenuVC.swift in Sources */,
 				EC32B12D203C825000861AC3 /* PrincipalViewController.swift in Sources */,
@@ -444,14 +443,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EC1E8FF2202D381100BE0A1B /* Easypasse.xcdatamodeld */ = {
+		ECBC379F21065B2C00CDBBA8 /* EasypasseDB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */,
-				EC1E8FF3202D381100BE0A1B /* Easypasse.xcdatamodel */,
+				ECBC37A021065B2C00CDBBA8 /* EasypasseDB.xcdatamodel */,
 			);
-			currentVersion = ECC0C55820FF8DFA00BDE6CB /* Easypasse 2.xcdatamodel */;
-			path = Easypasse.xcdatamodeld;
+			currentVersion = ECBC37A021065B2C00CDBBA8 /* EasypasseDB.xcdatamodel */;
+			path = EasypasseDB.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -64,14 +64,15 @@ class CadastroViewController: UIViewController {
                     let context = appDelegate.persistentContainer.viewContext
 
                     let dataUsuario = NSEntityDescription.insertNewObject(forEntityName: "Usuario", into: context)
-                    dataUsuario.setValue(nomeUsuario, forKey: "usuario")
+                    dataUsuario.setValue(nomeUsuario, forKey: "nome")
                     dataUsuario.setValue(idUsuario, forKey: "idusuario")
                     dataUsuario.setValue(cpfUsuario, forKey: "cpf")
 
                     //Salvar os dados
                     do {
                         try context.save()
-                        print("Os dados foram salvos corretamente")
+                        //print("Os dados foram salvos corretamente")
+                        //performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
                     } catch  {
                         print("Erro ao salvar os dados")
                     }
