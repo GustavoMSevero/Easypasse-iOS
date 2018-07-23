@@ -71,8 +71,11 @@ class CadastroViewController: UIViewController {
                     //Salvar os dados
                     do {
                         try context.save()
-                        //print("Os dados foram salvos corretamente")
-                        //performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+                        print("Os dados foram salvos corretamente")
+    
+                        self.performSegue(withIdentifier: "cadastroSegue", sender: nil)
+
+                        
                     } catch  {
                         print("Erro ao salvar os dados")
                     }
