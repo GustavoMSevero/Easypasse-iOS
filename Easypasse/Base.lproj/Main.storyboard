@@ -188,13 +188,25 @@
                                     <action selector="botaoSalvar:" destination="h4s-ku-mTd" eventType="touchUpInside" id="CjF-J8-IEf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPb-m0-BgH">
+                                <rect key="frame" x="16" y="426" width="288" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="vLu-dS-wco"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14509803921568626" green="0.18431372549019609" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="g7M-Iu-Ekp" firstAttribute="leading" secondItem="gce-uN-lky" secondAttribute="leading" constant="16" id="08p-Bd-dlg"/>
                             <constraint firstItem="g7M-Iu-Ekp" firstAttribute="top" secondItem="dfn-tv-vbb" secondAttribute="bottom" constant="8" id="31W-vW-E3T"/>
+                            <constraint firstItem="RPb-m0-BgH" firstAttribute="centerX" secondItem="pvm-GP-jy1" secondAttribute="centerX" id="3d3-gQ-xDZ"/>
+                            <constraint firstItem="RPb-m0-BgH" firstAttribute="top" secondItem="NHe-2R-S9T" secondAttribute="bottom" constant="15" id="3uD-ld-DyX"/>
                             <constraint firstItem="TXC-qL-euT" firstAttribute="leading" secondItem="gce-uN-lky" secondAttribute="leading" constant="16" id="3wD-24-DBm"/>
                             <constraint firstItem="TXC-qL-euT" firstAttribute="top" secondItem="8t6-Ot-VH3" secondAttribute="bottom" constant="8" id="DFi-Bk-6cf"/>
+                            <constraint firstItem="RPb-m0-BgH" firstAttribute="top" secondItem="NHe-2R-S9T" secondAttribute="bottom" constant="15" id="DOs-x3-8M0"/>
                             <constraint firstItem="8t6-Ot-VH3" firstAttribute="leading" secondItem="gce-uN-lky" secondAttribute="leading" constant="16" id="DuJ-fZ-HCZ"/>
                             <constraint firstItem="NHe-2R-S9T" firstAttribute="top" secondItem="g7M-Iu-Ekp" secondAttribute="bottom" constant="21" id="EnO-jO-yFb"/>
                             <constraint firstItem="gce-uN-lky" firstAttribute="trailing" secondItem="NHe-2R-S9T" secondAttribute="trailing" constant="16" id="M4b-04-KW1"/>
@@ -219,12 +231,13 @@
                         <outlet property="campoCPF" destination="TXC-qL-euT" id="kSn-mh-q5H"/>
                         <outlet property="campoSenha" destination="g7M-Iu-Ekp" id="YlI-gh-HyL"/>
                         <outlet property="campoUsuario" destination="fjl-5i-yGR" id="Q2B-5M-mNY"/>
+                        <outlet property="lblMensagem" destination="RPb-m0-BgH" id="97h-Ad-Bx4"/>
                         <segue destination="gcm-uY-eag" kind="show" identifier="cadastroSegue" id="sAe-AY-dGA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFy-ej-lul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="28.335832083958024"/>
+            <point key="canvasLocation" x="1211.25" y="27.464788732394368"/>
         </scene>
         <!--Principal-->
         <scene sceneID="v6D-3w-OpM">

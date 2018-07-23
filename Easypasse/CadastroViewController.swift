@@ -17,6 +17,7 @@ class CadastroViewController: UIViewController {
     @IBOutlet weak var campoUsuario: UITextField!
     @IBOutlet weak var campoCPF: UITextField!
     @IBOutlet weak var campoSenha: UITextField!
+    @IBOutlet weak var lblMensagem: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +50,14 @@ class CadastroViewController: UIViewController {
             switch response.result {
             case .success:
                 //print(response)
+                if let json = response.result.value as? [String: Any]{
+                    let error = json["error"] as? String
+                    if error != nil{
+                        let msg = json["msg"] as? String
+                        self.lblMensagem.text = msg!
+                    }
+                }
+                
                 if let json = response.result.value as? [String: Any],
                     let registro = json["registro"] as? [String: Any],
                     let usuario = registro["usuario"] as? [String: Any],
@@ -82,7 +91,7 @@ class CadastroViewController: UIViewController {
                     
                 }
                 
-            case .failure(let error):
+            case .failure(let _):
                 print(0,"Error")
             }
         }
