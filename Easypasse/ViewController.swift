@@ -20,6 +20,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if CoreDataManager.verificaExistenciaUsuario() != 0 {
+            print("Existe usuário")
+            self.performSegue(withIdentifier: "seguePrincipal", sender: nil)
+        }
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

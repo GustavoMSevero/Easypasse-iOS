@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hde-DZ-iiq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -59,7 +59,7 @@
                                 </state>
                                 <connections>
                                     <action selector="botaoAcesse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JQ9-54-YmR"/>
-                                    <segue destination="gcm-uY-eag" kind="show" id="16K-AZ-1WJ"/>
+                                    <segue destination="gcm-uY-eag" kind="show" identifier="seguePrincipal" id="16K-AZ-1WJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivu-OY-EPT">
@@ -1897,6 +1897,6 @@
         <image name="logo_easypasse" width="800" height="244"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sAe-AY-dGA"/>
+        <segue reference="16K-AZ-1WJ"/>
     </inferredMetricsTieBreakers>
 </document>

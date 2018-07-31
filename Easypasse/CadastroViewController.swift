@@ -22,6 +22,9 @@ class CadastroViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Verifica se já existe usuário logado
+        CoreDataManager.fetchObj()
+        
         
     }
     
