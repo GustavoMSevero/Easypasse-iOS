@@ -16,8 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        if CoreDataManager.verificaExistenciaUsuario() != 0 {
+            print("Existe usuário")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = storyboard.instantiateInitialViewController()
+        }else{
+            print("Não existe usuário")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = storyboard.instantiateInitialViewController()
+        }
+        
         return true
+    
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
